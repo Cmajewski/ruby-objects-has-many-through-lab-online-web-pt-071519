@@ -13,4 +13,9 @@ class Appointment
     @@all
   end
 
+  def patient
+    self.patient
+  end
+
+
 end
