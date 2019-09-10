@@ -21,7 +21,7 @@ class Doctor
   end
 
   def patients
-    appointments.patient
+    appointments.each{|x| x.patient}
 
   end
 end
