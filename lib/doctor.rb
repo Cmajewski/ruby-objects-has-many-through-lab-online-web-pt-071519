@@ -21,7 +21,7 @@ class Doctor
   end
 
   def patients
-    binding.pry
-    appointments.each.select {|x| x.patient}
+    appointments.patient
+
   end
 end
